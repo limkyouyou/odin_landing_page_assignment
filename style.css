@@ -65,6 +65,17 @@
   margin: 0;
 }
 
+.nav_links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+link {
+  text-decoration: none;
+}
+
 .quote {
   background-color: #E5E7EB;
 }
