@@ -51,6 +51,7 @@ body {
 }
 
 .link,
+.signup_p,
 .intro_p {
   color: #E5E7EB;
 }
@@ -63,7 +64,7 @@ body {
 
 .signup_btn_a,
 .signup_btn_b,
-.signup {
+.signup_container {
   background-color: #3882F6;
 }
 
@@ -71,8 +72,9 @@ body {
 .signup_btn_b {
   font-size: 18px;
   font-weight: bold;
-  padding: 6px 30px;
   border-radius: 5px;
+  height: 38px;
+  width: 145px;
 }
 
 .header {
@@ -176,6 +178,37 @@ link {
   margin: 0 40px;
 }
 
+.signup {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.signup_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1075px;
+  padding: 50px 150px;
+  border-radius: 8px;
+  
+}
+
+.signup_h {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.signup_p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
 .signup_btn_b {
   border: 2px solid #E5E7EB;
+  flex: initial;
 }
