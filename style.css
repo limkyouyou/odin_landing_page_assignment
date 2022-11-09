@@ -56,6 +56,7 @@ body {
 }
 
 .info_h,
+.info_p,
 .quote {
   color: #1F2937;
 }
@@ -98,6 +99,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 100px 200px;
+  height: 450px;
 }
 
 .presentation {
@@ -123,7 +125,7 @@ link {
 }
 
 .info {
-  padding-bottom: 100px;
+  height: 450px;
 }
 
 .info_h {
@@ -150,6 +152,28 @@ link {
 
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+.quote_container {
+  width: 820px;
+}
+
+.quote_p {
+  font-size: 36px;
+  font-style: italic;
+  margin: 0;
+}
+
+.quote_author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0 40px;
 }
 
 .signup_btn_b {
