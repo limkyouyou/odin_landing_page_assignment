@@ -75,6 +75,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  padding: 10px 200px 0;
 }
 
 .header_h{
@@ -93,6 +94,7 @@ body {
 .intro {
   display: flex;
   justify-content: space-between;
+  padding: 100px 200px;
 }
 
 .presentation {
