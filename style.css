@@ -21,7 +21,10 @@ body {
 .intro_img {
   width: 500px;
   height: 230px;
-  background-color: gray;
+  background-color: #666668;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info_img {
