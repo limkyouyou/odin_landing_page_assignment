@@ -15,7 +15,7 @@ body {
 }
 
 .landing_page {
-  width: 1275px;
+  width: 1475px;
 }
 
 .intro_img {
@@ -62,9 +62,17 @@ body {
   background-color: #3882F6;
 }
 
+.signup_btn_a,
+.signup_btn_b {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 6px 30px;
+  border-radius: 5px;
+}
+
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0;
 }
@@ -80,6 +88,29 @@ body {
   display: flex;
   flex-direction: row;
   gap: 25px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.presentation {
+  width: 450px;
+}
+
+.intro_h {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.intro_p {
+  font-size: 18px;
+}
+
+.signup_btn_a {
+  border: none;
 }
 
 link {
