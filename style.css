@@ -46,14 +46,14 @@
   color: #1F2937;
 }
 
-.quote {
-  background-color: #E5E7EB;
-}
-
 .signup_btn_a,
 .signup_btn_b,
 .signup {
   background-color: #3882F6;
+}
+
+.quote {
+  background-color: #E5E7EB;
 }
 
 .signup_btn_b {
