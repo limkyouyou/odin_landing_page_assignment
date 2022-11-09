@@ -30,7 +30,8 @@ body {
 .info_img {
   width: 150px;
   height: 150px;
-  border: 3px solid #3882F6;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
 }
 
 .header,
@@ -119,6 +120,32 @@ body {
 
 link {
   text-decoration: none;
+}
+
+.info {
+  padding-bottom: 100px;
+}
+
+.info_h {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 60px;
+}
+
+.info_container {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.info_element {
+  width: 150px;
+}
+
+.info_p {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .quote {
