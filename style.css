@@ -25,11 +25,36 @@
   background-color: #1F2937;
 }
 
+.header_h,
+.intro_h,
+.signup_btn_a,
+.intro_img,
+.signup_h,
+.signup_btn_b,
+.copyright {
+  color: #F9FAF8;
+}
+
+.link,
+.intro_p {
+  color: #E5E7EB;
+}
+
+.info_h,
+.quote {
+  color: #1F2937;
+}
+
 .quote {
   background-color: #E5E7EB;
 }
 
+.signup_btn_a,
+.signup_btn_b,
 .signup {
   background-color: #3882F6;
 }
 
+.signup_btn_b {
+  border: 2px solid #E5E7EB;
+}
