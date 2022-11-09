@@ -6,3 +6,15 @@
 * {
   font-family: 'roboto', sans-serif;
 }
+
+.intro_img {
+  width: 500px;
+  height: 230px;
+  background-color: gray;
+}
+
+.info_img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+}
