@@ -8,6 +8,15 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.landing_page {
+  width: 1275px;
+}
+
 .intro_img {
   width: 500px;
   height: 230px;
@@ -54,7 +63,7 @@
 
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   
 }
