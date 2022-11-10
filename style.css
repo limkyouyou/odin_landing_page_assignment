@@ -212,3 +212,10 @@ link {
   border: 2px solid #E5E7EB;
   flex: initial;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+}
