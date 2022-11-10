@@ -41,6 +41,17 @@ body {
   background-color: #1F2937;
 }
 
+.intro,
+.info,
+.quote {
+  height: 500px;
+}
+
+.info,
+.signup {
+  background-color: white;
+}
+
 .header_h,
 .intro_h,
 .signup_btn_a,
@@ -102,7 +113,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 100px 200px;
-  height: 450px;
 }
 
 .presentation {
@@ -116,6 +126,7 @@ body {
 }
 
 .intro_p {
+  margin-top: 0;
   font-size: 18px;
 }
 
@@ -125,11 +136,6 @@ body {
 
 link {
   text-decoration: none;
-}
-
-.info {
-  height: 450px;
-  background-color: white;
 }
 
 .info_h {
@@ -161,7 +167,6 @@ link {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 450px;
 }
 
 .quote_container {
@@ -187,7 +192,6 @@ link {
   justify-content: center;
   align-items: center;
   height: 300px;
-  background-color: white;
 }
 
 .signup_container {
