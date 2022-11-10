@@ -1,28 +1,28 @@
-@font-face {
+@font-face { /* import and name a new font */
   font-family: 'roboto';
   src: url(Roboto-Regular.ttf);
 }
 
-* {
+* { /* declare font-family and total box size to include padding and margin as the default setting */
   font-family: 'roboto', sans-serif;
   box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  background-color: black;
+  display: flex; 
+  justify-content: center; /* declare the whole document is centered on the main axis */
+  margin: 0; /* declare the whole document has no margin */
+  background-color: black; /* declare the background color */
 }
 
 .landing_page {
-  width: 1475px;
+  width: 1475px; /* declare the main documents' fixed width */
 }
 
 .intro,
 .info,
 .quote {
-  height: 500px;
+  height: 500px; /* declare these contents' fixed height */
 }
 
 .header,
@@ -61,17 +61,17 @@ body {
 .intro_img {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 500px;
+  align-items: center; /* declare the text in the content is centered on the main and cross axis*/
   height: 230px;
+  width: 500px; /* declare the content's fixed height and width so that is does not change depending where it is placed */
   background-color: #666668;
 }
 
 .info_img {
-  width: 170px;
   height: 170px;
-  border: 4.5px solid #3882F6;
-  border-radius: 15px;
+  width: 170px; /* declare the content's fixed height and width so that it does not change depending where it is placed */
+  border: 4.5px solid #3882F6; /* declare the content's border size, style, and size */
+  border-radius: 15px; /* declare round corners of the content */
 }
 
 .signup_btn_a,
@@ -83,122 +83,122 @@ body {
 .signup_btn_a,
 .signup_btn_b {
   font-size: 18px;
-  font-weight: bold; 
+  font-weight: bold; /* declare the buttons' text size and weight */
   height: 38px;
-  width: 145px;
-  border-radius: 5px;
+  width: 145px; /* declare fixed width and height so that the button does not stretch depending where it's placed */
+  border-radius: 5px; /* declare the buttons' fixed height, width, and round corners */
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px 200px;
+  align-items: center; /* declare the items have as much space between them and are centered on the cross axis */
+  padding: 10px 200px; /* declare the paddings of the content */
 }
 
 .header_h{
   font-size: 24px;
   font-weight: bold;
-  margin: 0;
+  margin: 0; /* declare margin to be 0 from its default setting */
 }
 
 .nav_links {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  gap: 25px;
+  display: flex; 
+  flex-direction: row; /* declare the list to be align horizontally from its default setting */
+  gap: 25px; /* declare gap between items */
+  list-style: none; /* declare list style to be none from its default setting */
 }
 
 link {
-  text-decoration: none;
+  text-decoration: none; /* declare the link style to be none from its default setting */
 }
 
 .intro {
   display: flex;
-  justify-content: space-between;
-  padding: 100px 200px;
+  justify-content: space-between; /* declare the items have as much space between them */
+  padding: 100px 200px; /* declare the padding of the content, especially so that it matches the above content horizontally */
 }
 
 .presentation {
-  width: 450px;
+  width: 450px; /* declare the width of the content so that its text does not take up the whole line */
 }
 
 .intro_h {
   font-size: 48px;
   font-weight: bolder;
-  margin: 0;
+  margin: 0; /* declare the text's margin to be 0 from its default setting */
 }
 
 .intro_p {
   font-size: 18px;
-  margin-top: 0;
+  margin-top: 0; /* declare the text's margin to be 0 from its default setting */
 }
 
 .signup_btn_a {
-  border: none;
+  border: none; /* declare the button's border to be none from its default setting */
 }
 
 .info_h {
   font-size: 36px;
   font-weight: bolder;
-  text-align: center;
-  margin: 0;
+  text-align: center; /* declare the content to be centered on the main axis */
+  margin: 0; /* declare the text margin to be zero from its default setting */
   padding: 50px;
 }
 
 .info_container {
   display: flex;
-  justify-content: center;
-  gap: 45px;
+  justify-content: center; /* declare the items to be centered on the main axis */
+  gap: 45px; /* declare gap between items */
 }
 
 .info_element {
-  width: 170px;
+  width: 170px; /* declare fixed width so that its items does not take up all available space */
 }
 
 .info_p {
   text-align: center;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 10px; /* declare its top margin from its default setting */
 }
 
 .quote {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; /* declare the item is centered on main and cross axis */
   background-color: #E5E7EB;
 }
 
 .quote_container {
-  width: 820px;
+  width: 820px; /* declare fixed width so that its items does not use up all available space */
 }
 
 .quote_p {
   font-size: 36px;
   font-style: italic;
-  margin: 0;
+  margin: 0; /* declare new margin from its default setting */
 }
 
 .quote_author {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; /* declare the item is placed from left to right */
   font-size: 26px;
   font-weight: bold;
-  margin: 0 40px;
+  margin: 0 40px; /* declare new margin from its default setting */
 }
 
 .signup {
   display:flex;
   justify-content: center;
-  align-items: center;
-  height: 300px;
+  align-items: center; /* declare its item is centered on the main and cross axis */
+  height: 300px; /* declare fixed height so the content has more space then it needs*/
 }
 
 .signup_container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 1075px;
+  align-items: center; /* declare its items have space between them and are centered on the cross axis */
+  width: 1075px; /* declare its width so that it matches the width of top two contents excluding their width paddings */
   padding: 50px 150px;
   border-radius: 8px;
 }
@@ -206,13 +206,13 @@ link {
 .signup_h {
   font-size: 26px;
   font-weight: bold;
-  margin: 0;
+  margin: 0; /* declare new margin from its default setting */
 }
 
 .signup_p {
   font-size: 18px;
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 0; /* declare new margin from its default setting */
 }
 
 .signup_btn_b {
@@ -222,6 +222,6 @@ link {
 .footer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 110px;
+  align-items: center; /* declare its item is centered on the main and cross axis */
+  height: 110px; /* declare fixed height so the content has more more space than it needs */
 }
